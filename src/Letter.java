@@ -18,10 +18,6 @@ public class Letter implements Serializable {
     // some formatting stuff
     @Override
     public String toString() {
-        return "Letter{" +
-                "Phoneme Type:'" + phonemeType + '\'' +
-                ", Letter:'" + phonemeInput + '\'' +
-                ", IPA:'" + phonemeIPA + '\'' +
-                '}';
+        return "Phoneme[" + "Type=\"" + phonemeType + '\"' + ", Letter=<" + phonemeInput + '>' + ", IPA=[" + phonemeIPA + ']' + '}';
     }
 }
