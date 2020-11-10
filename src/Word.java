@@ -15,9 +15,6 @@ public class Word {
 
     @Override
     public String toString() {
-        return "Letter{" + "Word Type:'" + wordType + '\'' +
-                ", Word Spelling:'" + wordSpelling + '\'' +
-                ", Translates to:'" + translatesTo + '\'' +
-                '}';
+        return "Word[" + "Type='" + wordType + '\'' + ", Spelling='" + wordSpelling + '\'' + ", Translation= '" + translatesTo + '\'' + ']';
     }
 }
