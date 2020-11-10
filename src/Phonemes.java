@@ -12,9 +12,9 @@ public class Phonemes {
         phonemeInv = new ArrayList<>();
     }
 
-    public void addPhoneme(String addPhonemeType, String addPhonemeInp, String addPhonemeIPA) {
-        phonemeInv.add(new Letter(addPhonemeType, addPhonemeInp, addPhonemeIPA));
-        System.out.println("Added letter '" + addPhonemeInp + "' of type '" + addPhonemeType + "' to inventory with value [" + addPhonemeIPA + "]");
+    public void addPhoneme(String PhonemeType, String PhonemeInp, String PhonemeIPA) {
+        phonemeInv.add(new Letter(PhonemeType, PhonemeInp, PhonemeIPA));
+        System.out.println("Added letter '" + PhonemeInp + "' of type '" + PhonemeType + "' to inventory with value [" + PhonemeIPA + "]");
     }
 
     public void removePhoneme(int index) {
